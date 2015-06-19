@@ -7,10 +7,10 @@
 	$.fn.slider = function(opt){
 		var
 			o = $.extend({
-				startIndex: 0,
+				startIndex: -1,
 				time: 3000,
 				animationTime: 500,
-				direction: "up",
+				direction: "left",
 				autoAnimation: true,
 				imgWrap: ".js-slider-img-wrap",
 				img: "li",
